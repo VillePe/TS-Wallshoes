@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentCatalog", "ComponentCatalog\ComponentCatalog.csproj", "{66CC1210-B11D-4BFF-8181-EBC9865F3E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeinakengatApplikaatio", "Seinakengat\SeinakengatApplikaatio.csproj", "{EDBEA4C1-2D14-428D-A2D0-4A5EAD2C4D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeinakengatPlugin", "SeinakengatPlugin\SeinakengatPlugin.csproj", "{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSUtils", "..\Tyosaumarauta\TSUtils\TSUtils.csproj", "{8BE5E98A-D888-4E58-9963-25F8DB09804B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66CC1210-B11D-4BFF-8181-EBC9865F3E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CC1210-B11D-4BFF-8181-EBC9865F3E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CC1210-B11D-4BFF-8181-EBC9865F3E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CC1210-B11D-4BFF-8181-EBC9865F3E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBEA4C1-2D14-428D-A2D0-4A5EAD2C4D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBEA4C1-2D14-428D-A2D0-4A5EAD2C4D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBEA4C1-2D14-428D-A2D0-4A5EAD2C4D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBEA4C1-2D14-428D-A2D0-4A5EAD2C4D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE5E98A-D888-4E58-9963-25F8DB09804B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE5E98A-D888-4E58-9963-25F8DB09804B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE5E98A-D888-4E58-9963-25F8DB09804B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE5E98A-D888-4E58-9963-25F8DB09804B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

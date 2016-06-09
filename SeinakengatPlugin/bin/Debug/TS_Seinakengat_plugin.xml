@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TS_Seinakengat_plugin</name>
+    </assembly>
+    <members>
+        <member name="T:Seinakengat.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Ikoni">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Nuoli_Alas">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Nuoli_Ylos">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Pääkuva_Jaettu">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Pystymitat">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Seinakengat.Properties.Resources.Pystymitat_Viivoilla">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:SeinakengatPlugin.Seinakengat.AddWallShoeCut(System.Double[],Tekla.Structures.Geometry3d.Point,System.Double,System.Double,System.Boolean,Tekla.Structures.Model.Part)">
+            <summary>
+            Adds the cut for the wallshoe components
+            </summary>
+            <param name="variables">List of doubles with dimensions of the component</param>
+            <param name="p1">The point which gives the x position of the component on fatherpart</param>
+            <param name="minY">Fatherparts solids miminum Y position</param>
+            <param name="maxY">Fatherparts solids miminum Y position</param>
+            <param name="changeDirection">Boolean to give the direction</param>
+            <param name="fatherpart">Part to insert the cut to</param>
+        </member>
+        <member name="F:SeinakengatPlugin.SeinakengatForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SeinakengatPlugin.SeinakengatForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SeinakengatPlugin.SeinakengatForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

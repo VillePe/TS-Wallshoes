@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <LeftBoltDist>300</LeftBoltDist>
+  <RightBoltDist>300</RightBoltDist>
+  <RightShoeDist>300</RightShoeDist>
+  <LeftShoeDist>300</LeftShoeDist>
+  <RightBoltOffset>135</RightBoltOffset>
+  <LeftShoeName>EB_ASL30</LeftShoeName>
+  <RightShoeName>EB_ASL30</RightShoeName>
+  <LeftBoltName>EB_AHP30</LeftBoltName>
+  <RightBoltName>EB_AHP30</RightBoltName>
+  <CreateRightBolt>1</CreateRightBolt>
+  <CreateLeftBolt>1</CreateLeftBolt>
+  <Direction>y+</Direction>
+  <LeftBoltOffset>135</LeftBoltOffset>
+</config>

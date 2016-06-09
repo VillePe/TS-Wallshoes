@@ -1,0 +1,15 @@
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\bin\Debug\ComponentCatalog.dll
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\bin\Debug\ComponentCatalog.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\obj\Debug\Seinäkengät.ComponentCatalog.resources
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\obj\Debug\ComponentCatalog.Properties.Resources.resources
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\obj\Debug\ComponentCatalog.csproj.GenerateResource.Cache
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\obj\Debug\ComponentCatalog.dll
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\ComponentCatalog\obj\Debug\ComponentCatalog.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\bin\Debug\ComponentCatalog.dll
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\bin\Debug\ComponentCatalog.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.ComponentCatalog.resources
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.Properties.Resources.resources
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.csproj.GenerateResource.Cache
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.dll
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinakengat\ComponentCatalog\obj\Debug\ComponentCatalog.csprojResolveAssemblyReference.cache

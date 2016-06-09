@@ -1,0 +1,23 @@
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\bin\Debug\Seinäkengät.exe
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\bin\Debug\Seinäkengät.pdb
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\bin\Debug\TSUtils.dll
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\bin\Debug\TSUtils.pdb
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.csprojResolveAssemblyReference.cache
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.Properties.Resources.resources
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.csproj.GenerateResource.Cache
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.exe
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.pdb
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.ComponentCatalog.resources
+c:\users\ville\documents\visual studio 2015\Projects\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.MainWindow.resources
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.exe
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\bin\Debug\Seinäkengät.exe
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\bin\Debug\Seinäkengät.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\bin\Debug\TSUtils.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.csprojResolveAssemblyReference.cache
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.MainWindow.resources
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.Properties.Resources.resources
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.csproj.GenerateResource.Cache
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\bin\Debug\ComponentCatalog.dll
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\bin\Debug\ComponentCatalog.pdb
+C:\Users\Ville\Documents\5_Csharp\Seinäkengät\Seinäkengät\obj\Debug\Seinäkengät.ErrorMessages.resources

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+	<Product Name='Tekla Structures Extension: Seinakengat 0.7' Manufacturer='Ville Pekkala'
+		Id='13A9ABA7-AA72-4B8F-9019-B0EE891B66A1'
+		UpgradeCode='DBC18AFF-33D9-4DAB-BC6B-21749EA54CCB'
+		Language='1035' Codepage='1252' Version='0.7.0'>
+		<Package 
+			Id='*' 
+			Keywords='Installer' 
+			Description="Tekla Structures seinäkenkälisäosan asentaja"
+			Manufacturer='Ville Pekkala' 
+			InstallerVersion='200' 
+			Platform="x64"
+			Languages='1035' 
+			Compressed='yes' 
+			SummaryCodepage='1252'/>
+		<Media Id="1" Cabinet="Sample.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
+		<Property Id="DiskPrompt" Value="Seinäkenkälisäosan asennus [1]" />
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id='ProgramFiles64Folder' Name='PFiles'>
+			<!-- ******** Program Files x64 ALKAA ******** -->
+				<Directory Id='TeklaStruct' Name='Tekla Structures'>
+					<Directory Id='TEKLADIR' Name='21.1'>
+						<Directory Id='nt' Name='nt'>
+							<Directory Id='Binaries' Name='bin'>
+								<Directory Id='Plugins' Name='plugins'>
+									<Directory Id='MyPlugins' Name='MyPlugins'>
+										<Directory Id='INSTALLDIR' Name='Seinakenka'>
+											<Component Id="Seinakenkaplugin" Guid="E4118E1F-48AD-4971-8302-D789EFC80194">
+												<File Id='SeinkakenkaDLL' Name='TS_Seinakengat_plugin.dll' DiskId='1' Source='TS_Seinakengat_plugin.dll' KeyPath='yes'>
+												</File>
+											</Component>
+											<Component Id="ComponentCatalog" Guid="5BF5BFB7-595D-49C0-840C-02E8885F1B22">
+												<File Id='ComponentCatalogDLL' Name='ComponentCatalog.dll' DiskId='1' Source='ComponentCatalog.dll' KeyPath='yes'>
+												</File>
+											</Component>
+											<Component Id="TSUtils" Guid="64166F40-F465-4919-B14B-855900E34714">
+												<File Id='TSUtilsDLL' Name='TSUtils.dll' DiskId='1' Source='TSUtils.dll' KeyPath='yes'>
+												</File>
+											</Component>
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+								
+			<!-- ******** Program Files x64 LOPPUU ******** -->
+			<!-- ******** Program Data ALKAA ******** -->
+			</Directory>
+			<Directory Id="CommonAppDataFolder" Name="ProgramData">
+				<Directory Id="TS0" Name="Tekla Structures">
+					<Directory Id="TS1" Name="21.1">
+						<Directory Id="TS2" Name="Environments">
+							<Directory Id="TS3" Name="common">
+								<Directory Id='SystemDir' Name='system'>
+									<Component Id="StandardFile" Guid="83201D0F-9395-44F1-B2F4-7F68D68CBF57">
+										<File Id='standard' Name='standard.SeinakengatPlugin.SeinakengatForm.xml' DiskId='1' Source='standard.SeinakengatPlugin.SeinakengatForm.xml' KeyPath='yes'>
+										</File>
+									</Component>
+								</Directory>
+							</Directory>
+						</Directory>
+
+            <Directory Id="TS4" Name="Bitmaps">
+                  <Component Id="BitmapFile" Guid="3BB3CF0A-424E-4E2F-8BCA-6479FB4D0755">
+                    <File Id='bitmap' Name='et_element_TS_Seinakengat_plugin.bmp' DiskId='1' Source='et_element_TS_Seinakengat_plugin.bmp' KeyPath='yes'>
+                    </File>
+                  </Component>
+            </Directory>
+            
+					</Directory>
+				</Directory>
+			</Directory>
+			<!-- ******** Program Data LOPPUU ******** -->
+		</Directory>
+		<Feature Id='Complete' Level='1'>
+			<ComponentRef Id='Seinakenkaplugin' />
+			<ComponentRef Id='ComponentCatalog' />
+			<ComponentRef Id='TSUtils' />
+      <ComponentRef Id="StandardFile" />
+      <ComponentRef Id="BitmapFile" />
+		</Feature>
+		<Property Id="WIXUI_INSTALLDIR" Value="TEKLADIR" />
+		<WixVariable Id="WixUILicenseRtf" Value="Kayttooikeussopimus.rtf" />
+		<UIRef Id="WixUI_InstallDir" />
+		<UIRef Id="WixUI_ErrorProgressText" />
+
+	</Product>
+</Wix>

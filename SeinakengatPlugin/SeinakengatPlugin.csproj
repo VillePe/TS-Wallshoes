@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE4BD7C0-A12A-4C67-ACEB-0B58DA2ACD42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seinakengat</RootNamespace>
+    <AssemblyName>TS_Seinakengat_plugin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\TS_Seinakengat_plugin.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Ikoni.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentCatalog, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ComponentCatalog\ComponentCatalog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tekla.Structures, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Tekla Structures\21.1\nt\bin\plugins\Tekla.Structures.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Catalogs, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Tekla Structures\21.1\nt\bin\plugins\Tekla.Structures.Catalogs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Dialog, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Tekla Structures\21.1\nt\bin\plugins\Tekla.Structures.Dialog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Model, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Tekla Structures\21.1\nt\bin\plugins\Tekla.Structures.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Tekla.Structures.Plugins, Version=2016.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Tekla Structures\21.1\nt\bin\plugins\Tekla.Structures.Plugins.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TSUtils">
+      <HintPath>..\..\Tyosaumarauta\TSUtils\bin\Debug\TSUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Seinakengat.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeinakengatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeinakengatForm.Designer.cs">
+      <DependentUpon>SeinakengatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WallShoeUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeinakengatForm.resx">
+      <DependentUpon>SeinakengatForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paakuva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paakuva1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pystymitta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pystymitat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pystymitat_Viivoilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pääkuva_Jaettu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuoli_Ylos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuoli_Alas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ikoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ikoni.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
